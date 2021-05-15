@@ -1,0 +1,15 @@
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

@@ -1,0 +1,43 @@
+h1 {
+    font-weight: normal;
+    font-size: 28px;
+}
+[type="email"] {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+[type="password"] {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box {
+    color: rgb(60, 60, 60);
+    background-clip: padding-box;
+    background-color: white;
+    border: 1px rgb(200, 200, 200) solid;
+    padding: 12px 10px;
+    height: auto;
+    width: 280px;
+    font-size: 15px;
+}
+.box:focus {
+    outline: none;
+    box-shadow: 0 0 0 3pt rgb(182, 222, 235);
+}
+.remember-me {
+    margin-top: 15px;
+    font-size: 15px;
+} 
+[type="submit"] {
+    margin: 20px;
+    color: white;
+    background-color: rgb(13, 110, 253);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px 70px;
+    border: none;
+    width: 300px;
+}
+[type="submit"]:hover {
+    background-color: rgb(10, 88, 202);
+}

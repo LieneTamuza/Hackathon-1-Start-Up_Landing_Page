@@ -1,10 +1,10 @@
 // Register
 
 $('.form').submit(function (e) {
-    let a = document.forms['registration-form']['password'].value;
-    let b = document.forms['registration-form']['password-retyped'].value;
+    let password = document.forms['registration-form']['password'].value;
+    let passwordRetyped = document.forms['registration-form']['password-retyped'].value;
 
-    if (a != b) {
+    if (password != passwordRetyped) {
         alert('Passwords do not match!');
         return false;
     }
